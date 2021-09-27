@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    text-transform:capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section  */
+.header{
+    background-color:#264653;
+}
+.btn{   
+    background: #E76F51;
+    color: white;
+}
+
+/* feature section  */
+.features-head h1 span{
+    color: #E76F51;
+}
+.featurImg{
+    filter: grayscale(100%);
+
+}
+.featurepra{
+    color:#E76F51;
+    font-weight: bold;
+}
+.features-head hr{
+    width: 6%;
+    border: 1px solid #f0512a;
+}
+
+/* news section  */
+#news h1 span{
+    color:#E76F51;
+}
+
+/* clients section  */
+#clients h1 span{
+  color: #E76F51;
+}
+.clientCard{
+    padding: 2rem 5rem;
+}
+.icons i{
+    color: #E76F51;
+}
+
+/* faq section  */
+#faq h1 span{
+    color: #E76F51;
+}
+
+/* company section  */
+.company h1 span{
+    color: #E76F51;
+}
+.brand:hover{
+  background-color: rgba(51, 51, 51, 0.424);
+  padding: 1rem;
+}
+
+/* contact section  */
+#contact{
+    background-image:linear-gradient(#2646538a,#2646538a), url('images/contact.jpg');
+    background-size: cover;
+    margin-top: 10rem;
+}
+#contact h1 {
+ color: white;
+}
+#contact h1 span{
+    color: #E76F51;
+}
+form{
+    background-color: #264653;
+    color: white;
+    margin: auto;
+    padding: 2rem 0;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+.address{
+    color: white;
+}
+.address h6 i{
+    color: #E76F51;
+    padding: 5px;
+    
+}
+.address h6{
+    font-size: 1.4rem;
+}
+.social{
+    color: #E76F51;
+    font-size: 2rem;
+}
+.social h6{
+    color: white;
+}
+
+
+/* media query  */
+@media(max-width:576px) {
+    .imgfeatur{
+        padding: 3rem;
+    }
+    .brand{
+        padding: 3rem;
+    }
+}
